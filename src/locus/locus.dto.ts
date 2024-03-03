@@ -26,7 +26,7 @@ export class GetLocusQueryParamsDto {
 
 export class LocusDto {
   @ApiProperty()
-  id: number;
+  id: bigint;
 
   @ApiProperty()
   assemblyId: string;

@@ -5,13 +5,13 @@ export class LocusMemberDto {
   id: bigint;
 
   @ApiProperty()
-  locusId: number;
+  locusId: bigint;
 
   @ApiProperty()
   ursTaxId: string;
 
   @ApiProperty()
-  regionId: number;
+  regionId: bigint;
 
   @ApiProperty()
   membershipStatus: string;
